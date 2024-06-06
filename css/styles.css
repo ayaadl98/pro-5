@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+ body{
+   height: 200vh;
+   background-image:url(../images/R\ \(1\).jpg) ;
+   
+} 
+img{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid  rgb(114, 111, 111); */
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px 5px rgb(169, 162, 162) inset;
+    margin-bottom: 30px;
+}
+.list1{
+    list-style:none ;
+    display:grid ;
+    grid-template-columns: repeat(4,20%);
+    gap: 50px;
+    justify-content: center;
+    margin-top: 200px;
+   
+
+   
+}
+
+#btn1{
+   
+    font-weight: 500;
+  transform: translatex(95%);
+    width: 505px;
+   
+}
+ h3{
+    color: rgb(114, 111, 111);
+    
+   text-align: center;
+   margin-bottom: 50px;
+   
+
+} 
+#content{
+    width:500px ;
+    height:100px ;
+    margin: 50px auto;
+    border-radius: 10px;
+     background-image:url(../images/R\ \(1\).jpg) ;  
+    background-size: cover; 
+    border: 1px solid  rgb(114, 111, 111);
+    text-align: center;
+}
+#totalprice{
+    width:500px ;
+    height:100px ;
+    background-color: rgb(242, 179, 226);
+    margin: 50px auto;
+    border-radius: 10px;
+    background-image:url(../images/R\ \(1\).jpg) ;
+    background-size: cover;
+    border: 1px solid  rgb(114, 111, 111);
+    text-align: center;
+    font-size: 50px;
+
+   } 
+   header{
+    width: 100%;
+    height:80px;
+    background-color: rgb(242, 195, 217); 
+    position: relative;
+    /* background-image:url(../images/R\ \(1\).jpg) ; */
+    background-size: cover;
+    position: absolute;
+    top:0
+    
+
+   }
+   .logo{
+    float: left;
+    height:80px;
+    width: 100px;
+    margin-left: 80px;
+   }
+   .ul1{
+   margin-left: 600px;
+    list-style: none;
+    margin-top: 20px;
+   }
+   .li1,.li2,.li3,.li4,.li5{
+    display: inline;
+    font-size: 20px;
+   margin-left: 50px;
+   
+   color:  rgb(114, 111, 111);
+   font-weight: 500;
+  
+
+   
+   }
+    
